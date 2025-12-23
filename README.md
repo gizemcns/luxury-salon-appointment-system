@@ -158,5 +158,5 @@ firebase deploy
 
 ⭐ Not
 - Bu proje bir demo değil, gerçek hayatta kullanılabilecek şekilde tasarlanmıştır.
-- Frontend, otomasyon ve deployment süreçlerinin bir bütün olarak ele alındığı,
-- portföy odaklı ve gerçek bir işletmeye entegre edilebilir bir uygulamadır.
+- Frontend, otomasyon ve deployment süreçlerinin bir bütün olarak ele alındığı,portföy odaklı ve gerçek bir işletmeye entegre edilebilir bir uygulamadır.
+- Gerek duyulması halinde gerçek bir işletme için entegre edilebilir.
