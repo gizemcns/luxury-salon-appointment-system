@@ -1,4 +1,4 @@
-# 💇‍♀️ Luxury Salon Appointment System
+# ✂️ Luxury Salon Appointment System
 
 Modern bir kuaför / güzellik salonu için geliştirilmiş, canlıda çalışan randevu oluşturma sistemi.  
 Gerçek kullanıcı akışlarını kapsayan, uçtan uca (frontend + otomasyon) bir projedir.
@@ -76,7 +76,6 @@ Kullanıcıların bir kuaför/güzellik salonu için:
 ---
 
 ## 📂 Proje Yapısı
-
 ```text
 PROJECT/
 ├─ src/
@@ -93,68 +92,71 @@ PROJECT/
 ├─ firebase.json
 ├─ vite.config.ts
 └─ README.md
+```
 
-----
 
 ## ⚙️ Kurulum (Local)
 
-Projeyi yerel makinenizde çalıştırmak için:
+- Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
-```bash
+```Bash
+
 # Bağımlılıkları yükleyin
 npm install
 
-## Geliştirme sunucusunu başlatın
+# Geliştirme sunucusunu başlatın
 npm run dev
 
-Tarayıcıdan şu adrese gidin: http://localhost:5173
+Tarayıcıdan şu adrese gidin:
+👉 http://localhost:5173
+```
 
 ## 🏗️ Production Build & Deploy
 
-Bash
+- Uygulamayı canlıya almak için:
+
+```Bash
 
 # Üretim dosyalarını oluşturun
-
 npm run build
 
 # Firebase'e yükleyin
-
 firebase deploy
+```
 
+## 🧩 Öğrenilenler & Kazanımlar
+- React + Vite projelerinde build süreçleri ve dosya yönetimi
 
-## 🧩 Öğrenilenler & Kazanımlar 
+- Frontend verilerinin n8n gibi otomasyon araçlarıyla uçtan uca entegrasyonu
 
-React + Vite projelerinde derleme (build) süreçleri ve dosya yönetimi.
+- Tarayıcı tabanlı güvenlik (CORS) problemlerinin çözümü
 
-Frontend verilerinin n8n gibi otomasyon araçlarıyla "Uçtan Uca" entegrasyonu.
-
-Tarayıcı tabanlı güvenlik (CORS) sorunlarının çözümü.
-
-Firebase Hosting ile profesyonel canlıya alma süreci.
+- Firebase Hosting ile profesyonel canlıya alma (deployment) süreci
 
 ## 🔮 Geliştirilebilir Özellikler
 
-[ ] Dolu saatlerin otomatik olarak takvimde kapatılması.
+[  ] Dolu saatlerin otomatik olarak takvimde kapatılması
 
-[ ] Google Calendar takvimine etkinlik olarak ekleme.
+[  ] Google Calendar entegrasyonu
 
-[ ] Admin paneli (randevu yönetimi, iptal, düzenleme)
+[  ] Admin paneli (randevu yönetimi, iptal, düzenleme)
 
-[ ] Randevu yönetim paneli (Admin Panel).
+[  ] SMS entegrasyonu (Twilio / NetGSM)
 
-[ ] SMS entegrasyonu (Twilio/NetGSM)
+[  ] Müşteri yorumları ve puanlama sistemi
 
-[ ] Müşteri yorumları ve puanlama sistemi
+[  ] WhatsApp API entegrasyonu
 
-[ ] WhatsApp API entegrasyonu.
+## 👩‍💻 Geliştirici
 
-👩‍💻 Geliştirici
-Gizem Can Master's in Economics | Data Analyst | Aspiring AI Developer
+- Gizem Can Bayındır
+- Master’s in Economics | Data Analyst | Aspiring AI Developer
 
-GitHub: https://github.com/gizemcns
+**GitHub:** [https://github.com/gizemcns]
 
-LinkedIn: [www.linkedin.com/in/gizemcanbayındırr]
+**LinkedIn:** [https://www.linkedin.com/in/gizemcanbayındırr]
 
 ⭐ Not
-
-Bu proje bir demo değil, gerçek hayatta kullanılabilecek şekilde tasarlanmıştır. Gerekmesi durumunda frontend, otomasyon ve deployment süreçlerinin bir bütün olarak ele alındığı portfolyo odaklı çalışma gerçek bir uygulama olarak bir işletmeye entegre edilebilir.
+- Bu proje bir demo değil, gerçek hayatta kullanılabilecek şekilde tasarlanmıştır.
+- Frontend, otomasyon ve deployment süreçlerinin bir bütün olarak ele alındığı,
+- portföy odaklı ve gerçek bir işletmeye entegre edilebilir bir uygulamadır.
